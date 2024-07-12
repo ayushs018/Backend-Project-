@@ -1,0 +1,1 @@
+ npm i -D nodemon # this is for resolving the problem for refreshing automatically
