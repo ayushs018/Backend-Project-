@@ -1,6 +1,7 @@
 import { app } from './app.js'
 import connectDB from './db/index.js'
 import dotenv from 'dotenv'
+import { registerUser } from './controllers/user.controllers.js'
 dotenv.config({
     path : './env'
 })
@@ -37,3 +38,4 @@ connectDB()
 .catch((error) => {
     console.log("Mongo db connection failed !!!" , error)
 })
+
